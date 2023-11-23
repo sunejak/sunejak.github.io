@@ -1,6 +1,5 @@
 #!/bin/bash
 # script to update repository.
-cp /mnt/SSD_disk1/electric_today.json .
 cp /mnt/SSD_disk1/today.png .
 cp /mnt/SSD_disk1/tomorrow.png .
 #
@@ -8,5 +7,5 @@ cp /mnt/SSD_disk1/tomorrow.png .
 #
 git pull
 git add --all
-git commit -m "New push of all $(date)"
+git commit -m "New plots $(date)"
 git push
